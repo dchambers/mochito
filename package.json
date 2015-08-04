@@ -1,6 +1,6 @@
 {
   "name": "mochito",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A hygenic JsMockito wrapper for modern test frameworks like Mocha.",
   "main": "src/mochito.js",
   "scripts": {
@@ -18,9 +18,9 @@
   "author": "Dominic Chambers",
   "license": "Apache-2.0",
   "repository": {
-		"type": "git",
-		"url": "git://github.com/dchambers/mochito.git"
-	},
+    "type": "git",
+    "url": "git://github.com/dchambers/mochito.git"
+  },
   "dependencies": {
     "jsmockito": "^1.0.5"
   },
