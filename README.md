@@ -22,11 +22,11 @@ Despite its popularity, Sinon.JS has a number of negatives, including:
   5. Mocked methods are only given the ability to verify expectations after some
      expectations have been added, often preventing the use of the mock when
      it's first created.
-  6. You need to remember to verify your expectations in you tear down methods
-     or tests may pass when they shouldn't.
   6. The `mock()` function returns a configurator object rather than the mock
-     itself, which is more confusing.
-  7. Its deep equality checking method doesn't consider an array to be
+     itself, which is somewhat confusing.
+  7. You need to remember to verify your expectations in your tear down methods
+     or tests may pass when they shouldn't.
+  8. Its deep equality checking method doesn't consider an array to be
      the same as an argument array containing the same items.
 
 Unfortunately, JsMockito has some downsides too (which Mochito fixes):
