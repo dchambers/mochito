@@ -2,7 +2,7 @@
 
 # Mochito
 
-Mochito is a hygenic JsMockito wrapper for modern test frameworks like Mocha.
+Mochito is a hygenic [JsMockito](http://jsmockito.org/) / [JsHamcrest](http://danielmartins.ninja/jshamcrest/) wrapper for modern test frameworks like [Mocha](http://mochajs.org/). It aims to make JsMockito more competitive when compared with [Sinon.JS](http://sinonjs.org/).
 
 
 ## Rationale
@@ -29,7 +29,7 @@ Despite its popularity, Sinon.JS has a number of negatives, including:
   7. Its deep equality checking method doesn't consider an array to be
      the same as an argument array containing the same items.
 
-Unfortunately, JsMockito has some downsides too:
+Unfortunately, JsMockito has some downsides too (which Mochito fixes):
 
   1. It uses lots of global variables rather than allowing you to require a
      single item.
@@ -41,8 +41,6 @@ Unfortunately, JsMockito has some downsides too:
      which are subsequently converted to `Error` instances by the containing
      test framework (will be fixed by
      [this issue](https://github.com/cleishm/jsmockito/issues/38)).
-
-but Mochito aims to fix these minor issues.
 
 
 ## Usage
