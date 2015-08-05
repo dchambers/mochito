@@ -2,7 +2,7 @@
 
 # Mochito
 
-Mochito is a hygenic [JsMockito](http://jsmockito.org/) / [JsHamcrest](http://danielmartins.ninja/jshamcrest/) wrapper for modern test frameworks like [Mocha](http://mochajs.org/). It aims to make JsMockito more competitive when compared with [Sinon.JS](http://sinonjs.org/).
+Mochito is a hygenic [JsMockito](http://jsmockito.org/) / [JsHamcrest](http://danielmartins.ninja/jshamcrest/) wrapper for modern test frameworks like [Mocha](http://mochajs.org/). It aims to make [JsMockito](http://jsmockito.org/) more competitive when compared with [Sinon.JS](http://sinonjs.org/).
 
 
 ## Rationale
