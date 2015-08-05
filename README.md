@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dchambers/mochito.png)](https://travis-ci.org/dchambers/mochito)
+
 # Mochito
 
 Mochito is a hygenic JsMockito wrapper for modern test frameworks like Mocha.
