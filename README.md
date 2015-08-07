@@ -65,3 +65,12 @@ describe('mochito', function() {
   });
 });
 ```
+
+## Global Functions
+
+If you really want the JsHamcrest & JsMockito functions to be available
+globally, you can simply write:
+
+```js
+mochito.installTo(global);
+```

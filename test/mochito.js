@@ -15,4 +15,14 @@ describe('mochito', function() {
     mochito.verify(mock, mochito.once()).doSomething('z', 'y');
     mochito.verify(mock, mochito.times(2)).doSomething(mochito.anything(), 'y');
   });
+
+  it('allows mocking to be performed using global functions if desired', function() {
+    mochito.installTo(global);
+
+    var mockObj = mock({
+      doSomething: function() {}
+    });
+    mockObj.doSomething('abc');
+    verify(mockObj, once()).doSomething('abc');
+  });
 });
