@@ -4,8 +4,8 @@
   "description": "A hygenic JsMockito wrapper for modern test frameworks like Mocha.",
   "main": "src/mochito.js",
   "scripts": {
-    "test": "npm run test:lint && npm run test:node",
-    "test:lint": "eslint src test",
+    "pretest": "eslint src test",
+    "test": "npm run test:node",
     "test:node": "mocha test"
   },
   "keywords": [

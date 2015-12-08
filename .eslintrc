@@ -1,9 +1,15 @@
 {
+	"extends": "eslint:recommended",
 	"env": {
 		"node": true
 	},
 	"rules": {
 		"quotes": [2, "single"],
 		"no-underscore-dangle": 0,
+	},
+	"globals": {
+		"mock": false,
+		"verify": false,
+		"once": false
 	}
 }
