@@ -1,7 +1,8 @@
 'use strict';
 
 var JsMockito = require('jsmockito').JsMockito;
-var JsHamcrest = require('jsmockito/node_modules/jshamcrest').JsHamcrest;
+// NOTE: the line below only works if you are using NPM 3, and even then it might fail!
+var JsHamcrest = require('jshamcrest').JsHamcrest;
 
 var mochito = {
   installTo: function(target) {
